@@ -408,8 +408,6 @@ button[type="submit"],
 .course-item__next-lesson-button {
   user-select: none!important;
   overflow: hidden!important;
-  font-family: var(--inter) !important;
-  font-feature-settings: var(--inter-features);
   display: flex!important;
   align-items: center!important;
   justify-content: center!important;
@@ -492,14 +490,6 @@ button[type="submit"]:after,
 .header-menu .header-menu-cta a {
   align-items: center;
   justify-content: center;
-}
-/*Left, Right, Center Wraps*/
-.sqs-block-button-container--left,
-.sqs-block-button-container--center,
-.sqs-block-button-container--right,
-.header-actions-action--cta,
-.newsletter-form-button-wrapper a {
-  border-radius: var(--button-radius) !important;
 }
 /*Left Button*/
 .sqs-block-button-container--left {
