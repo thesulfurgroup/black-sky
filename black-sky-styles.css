@@ -1,4 +1,4 @@
-/*Black-Sky CSS — Updated 02/19/2026*/
+/*Black-Sky CSS — Updated 03/04/2026*/
 /*Originally based on a template by Sulfur Studio*/
 /*Site Background Color*/
 body {
@@ -1663,7 +1663,7 @@ footer .sqsrte-scaled-text-container.loaded .sqsrte-scaled-text h2 {
 }
 @media screen and (min-width: 767px) {
   .user-items-list-banner-slideshow .desktop-arrows.arrow-container.arrow-container--left {
-    cursor: url('https://raw.githubusercontent.com/StudioMesa/template-assets/main/left.svg'), w-resize !important;
+    cursor: url('data:image/svg+xml,%3Csvg%20height%3D%2720px%27%20width%3D%2720px%27%20fill%3D%22%23ffffff%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpolygon%20points%3D%2239.7%2C87.2%2047.1%2C79.9%2022.4%2C55.2%2097.5%2C55.2%2097.5%2C44.8%2022.4%2C44.8%2047.1%2C20.1%2039.7%2C12.8%202.5%2C50%22%2F%3E%3C%2Fsvg%3E'), w-resize !important;
   }
 }
 .user-items-list-banner-slideshow .desktop-arrows.arrow-container.arrow-container--left:focus {
@@ -1675,7 +1675,7 @@ footer .sqsrte-scaled-text-container.loaded .sqsrte-scaled-text h2 {
 }
 @media screen and (min-width: 767px) {
   .user-items-list-banner-slideshow .desktop-arrows.arrow-container.arrow-container--right {
-    cursor: url('https://raw.githubusercontent.com/StudioMesa/template-assets/main/right.svg'), e-resize;
+    cursor: url('data:image/svg+xml,%3Csvg%20height%3D%2720px%27%20width%3D%2720px%27%20fill%3D%22%23ffffff%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpolygon%20points%3D%2260.3%2C12.8%2052.9%2C20.1%2077.6%2C44.8%202.5%2C44.8%202.5%2C55.2%2077.6%2C55.2%2052.9%2C79.9%2060.3%2C87.2%2097.5%2C50%22%2F%3E%3C%2Fsvg%3E'), e-resize;
   }
 }
 .user-items-list-banner-slideshow .desktop-arrows.arrow-container.arrow-container--right:focus {
@@ -2325,7 +2325,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 [data-section-theme="white"] .select-trigger,
 [data-section-theme="white-bold"] .select-trigger {
   color: var(--black) !important;
-  background: var(--light) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20black.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--light) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22black%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="white"] .filter-button,
 [data-section-theme="white-bold"] .filter-button {
@@ -2362,7 +2362,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 [data-section-theme="light"] .select-trigger,
 [data-section-theme="light-bold"] .select-trigger {
   color: var(--black) !important;
-  background: var(--white) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20black.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--white) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22black%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="light"] .filter-button,
 [data-section-theme="light-bold"] .filter-button {
@@ -2398,7 +2398,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 /*Accent Bold*/
 [data-section-theme="bright"] .select-trigger {
   color: var(--white) !important;
-  background: var(--accent-bold) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20white.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--accent-bold) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="bright"] .filter-button {
   background-color: var(--accent-bold);
@@ -2428,7 +2428,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 /*Accent*/
 [data-section-theme="bright-inverse"] .select-trigger {
   color: var(--white) !important;
-  background: var(--accent) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20white.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--accent) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="bright-inverse"] .filter-button {
   background-color: var(--accent);
@@ -2458,7 +2458,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 /*Dark*/
 [data-section-theme="dark"] .select-trigger {
   color: var(--white) !important;
-  background: var(--dark-bold) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20white.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--dark-bold) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="dark"] .filter-button {
   background-color: var(--dark-bold);
@@ -2488,7 +2488,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 /*Dark Bold*/
 [data-section-theme="dark-bold"] .select-trigger {
   color: var(--white) !important;
-  background: var(--dark) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20white.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--dark) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="dark-bold"] .filter-button {
   background-color: var(--dark);
@@ -2519,7 +2519,7 @@ section[data-current-styles*='"customSectionHeight": 13'] {
 [data-section-theme="black"] .select-trigger,
 [data-section-theme="black-bold"] .select-trigger {
   color: var(--white) !important;
-  background: var(--dark) url("https://raw.githubusercontent.com/StudioMesa/template-assets/main/chevron%20down%20white.svg") calc(100% - 5px) 50% no-repeat !important;
+  background: var(--dark) url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M6%209L12%2015L18%209%22%20stroke%3D%22white%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") calc(100% - 5px) 50% no-repeat !important;
 }
 [data-section-theme="black"] .filter-button,
 [data-section-theme="black-bold"] .filter-button {
