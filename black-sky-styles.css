@@ -2561,6 +2561,38 @@ div.wm-timeline .tl-title {
 div.wm-timeline .tl-body {
   font-size: 14px;
 }
+
+/* About page timeline: replace year labels with numbered process steps */
+body[data-collection-url="/about"] .wm-timeline .timeline-wrapper {
+  counter-reset: process-step;
+}
+
+body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event {
+  counter-increment: process-step;
+}
+
+body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event > .tl-date p,
+body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event .tl-content > .tl-date p {
+  font-size: 0;
+  line-height: 1;
+}
+
+body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event > .tl-date p::before,
+body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event .tl-content > .tl-date p::before {
+  content: "Step " counter(process-step, decimal-leading-zero);
+  font-size: 0.95rem;
+  font-weight: var(--heading-weight);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event > .tl-date p::before,
+  body[data-collection-url="/about"] .wm-timeline .timeline-wrapper .tl-event .tl-content > .tl-date p::before {
+    font-size: 0.85rem;
+  }
+}
+
 .custom-modal H2 {
   color: var(--black) !important;
 }
