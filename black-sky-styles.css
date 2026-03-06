@@ -212,6 +212,15 @@ body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-
 .header-title-text {
   font-weight: var(--body-weight);
 }
+/*Dark Logo on Light Backgrounds*/
+#header[data-section-theme="white"] .header-title-logo img,
+#header[data-section-theme="white-bold"] .header-title-logo img,
+#header[data-section-theme="light"] .header-title-logo img,
+#header[data-section-theme="light-bold"] .header-title-logo img,
+#header[data-section-theme="bright"] .header-title-logo img,
+#header[data-section-theme="bright-inverse"] .header-title-logo img {
+  filter: invert(1);
+}
 /*Social Icons Animation*/
 .header-actions-action--social {
   -webkit-animation: 0.8s ease 0s normal forwards 1 flexload !important;
