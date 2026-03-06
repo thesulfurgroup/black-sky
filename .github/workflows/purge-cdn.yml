@@ -1,0 +1,23 @@
+name: Purge jsDelivr Cache
+on:
+  push:
+    branches: [main]
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache
+        run: |
+          FILES=(
+            "black-sky-styles.css"
+            "flex-tweaks.css"
+            "wm-before-after.css"
+            "wm-timeline.css"
+            "autocolor.js"
+            "autofonts.js"
+            "dynamic-inset-fix.js"
+          )
+          for file in "${FILES[@]}"; do
+            echo "Purging $file..."
+            curl -s "https://purge.jsdelivr.net/gh/thesulfurgroup/black-sky@main/$file"
+          done
