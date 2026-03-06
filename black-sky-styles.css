@@ -3044,3 +3044,14 @@ body.modal-lock {
 .product-detail .product-meta .product-description {
   margin-bottom: 30px!important;
 }
+/*Cookie Banner Buttons*/
+.sqs-cookie-banner-v2 button {
+  padding: 1em 1.5em!important;
+  font-size: 0.85rem!important;
+  height: auto!important;
+  width: auto!important;
+  border-radius: 500px!important;
+}
+.sqs-cookie-banner-v2 button:after {
+  content: none!important;
+}
