@@ -37,12 +37,14 @@
      To adjust: change values here, commit, purge CDN.
      ═══════════════════════════════════════════════════ */
   var SD = {
-    mro:             { l: "MRO",                   lm: 0.8,  hm: 1.6,  el: 4.5, eh: 7.0 },
-    flight_training: { l: "Flight Training",       lm: 0.6,  hm: 1.3,  el: 3.5, eh: 6.0 },
-    parts:           { l: "Parts / Distribution",  lm: 0.7,  hm: 1.5,  el: 5.0, eh: 8.0 },
-    specialized_ops: { l: "Specialized Ops",       lm: 0.7,  hm: 1.4,  el: 4.0, eh: 6.5 },
-    fbo:             { l: "FBO / Ground Services",  lm: 1.0,  hm: 2.0,  el: 5.0, eh: 9.0 },
-    other:           { l: "Other Aviation",        lm: 0.6,  hm: 1.4,  el: 4.0, eh: 7.0 }
+    mro:             { l: "Maintenance & MRO",       lm: 0.8,  hm: 1.6,  el: 3.5, eh: 7.0 },
+    training:        { l: "Training & Simulation",   lm: 0.6,  hm: 1.3,  el: 2.5, eh: 6.0 },
+    parts:           { l: "Parts & Supply Chain",    lm: 0.7,  hm: 1.5,  el: 4.0, eh: 8.0 },
+    flight_ops:      { l: "Flight Operations",       lm: 0.7,  hm: 1.4,  el: 3.0, eh: 6.5 },
+    fbo:             { l: "FBO & Ground Services",   lm: 1.0,  hm: 2.0,  el: 4.0, eh: 9.0 },
+    software:        { l: "Software & Technology",   lm: 0.9,  hm: 1.8,  el: 4.0, eh: 9.0 },
+    infrastructure:  { l: "Infrastructure & OEM",    lm: 0.8,  hm: 1.6,  el: 3.5, eh: 7.5 },
+    other:           { l: "Other Aviation Niche",    lm: 0.6,  hm: 1.4,  el: 3.0, eh: 7.0 }
   };
 
   /* Revenue midpoints ($M) for each range bucket */
@@ -77,12 +79,14 @@
         '<div class="bsb-field">' +
           '<label>What type of aviation business? <span class="req">*</span></label>' +
           '<div class="bsb-tiles">' +
-            tile("sector", "mro", "MRO", "Maintenance, repair, overhaul") +
-            tile("sector", "flight_training", "Flight Training", "Part 61 / 141 schools") +
-            tile("sector", "parts", "Parts / Distribution", "Components, supply chain") +
-            tile("sector", "specialized_ops", "Specialized Ops", "Charter, cargo, aerial work") +
-            tile("sector", "fbo", "FBO / Ground Services", "Fuel, handling, hangar") +
-            tile("sector", "other", "Other", "Something else in aviation") +
+            tile("sector", "mro", "Maintenance & MRO", "Repair, overhaul, inspections, avionics, interiors") +
+            tile("sector", "training", "Training & Simulation", "Flight schools, Part 61/141, simulators, recurrent") +
+            tile("sector", "parts", "Parts & Supply Chain", "Sales, distribution, rotable exchange, logistics") +
+            tile("sector", "flight_ops", "Flight Operations", "Charter, cargo, medevac, aerial, ag, drone/UAS") +
+            tile("sector", "fbo", "FBO & Ground Services", "Fuel, ramp, hangar, de-icing, airport support") +
+            tile("sector", "software", "Software & Technology", "SaaS, maintenance software, compliance, AI/data") +
+            tile("sector", "infrastructure", "Infrastructure & OEM", "Manufacturing, retrofit, GSE, simulators, tooling") +
+            tile("sector", "other", "Other Aviation Niche", "Consulting, brokerage, leasing, staffing, finance") +
           '</div>' +
           '<div class="error-msg" id="sectorError">Please select a sector.</div>' +
         '</div>' +
