@@ -1,0 +1,9 @@
+#!/bin/sh
+# Block commits that contain Claude session links or similar AI session URLs
+if grep -qiE 'claude\.ai/(code/session|chat|project)' "$1"; then
+  echo ""
+  echo "ERROR: Commit message contains a Claude session link."
+  echo "Remove it before committing."
+  echo ""
+  exit 1
+fi
