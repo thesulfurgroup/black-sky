@@ -16,6 +16,8 @@ jobs:
             "autocolor.js"
             "autofonts.js"
             "dynamic-inset-fix.js"
+            "valuation-form.css"
+            "valuation-form.js"
           )
           for file in "${FILES[@]}"; do
             echo "Purging $file..."
