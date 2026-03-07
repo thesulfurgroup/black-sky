@@ -1,0 +1,93 @@
+/* Black Sky valuation form styles */
+#valuation-form-root {
+  --vf-bg: #0e1013;
+  --vf-panel: #171a1f;
+  --vf-border: #2a2f38;
+  --vf-text: #f6f7f9;
+  --vf-muted: #b8bdc7;
+  --vf-accent: #70d6ff;
+  --vf-accent-2: #36cdb2;
+  max-width: 860px;
+  margin: 0 auto;
+  color: var(--vf-text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+#valuation-form-root .vf-card {
+  background: linear-gradient(160deg, var(--vf-panel), var(--vf-bg));
+  border: 1px solid var(--vf-border);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+#valuation-form-root h2,
+#valuation-form-root h3 {
+  margin: 0 0 8px;
+}
+
+#valuation-form-root .vf-sub {
+  margin: 0 0 18px;
+  color: var(--vf-muted);
+}
+
+#valuation-form-root .vf-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+#valuation-form-root label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.92rem;
+}
+
+#valuation-form-root input,
+#valuation-form-root select,
+#valuation-form-root button {
+  border-radius: 8px;
+  border: 1px solid var(--vf-border);
+  background: #101318;
+  color: var(--vf-text);
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+#valuation-form-root button {
+  grid-column: 1 / -1;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--vf-accent), var(--vf-accent-2));
+  color: #081217;
+  border: none;
+  font-weight: 700;
+}
+
+#valuation-form-root .vf-result {
+  margin-top: 18px;
+  border-top: 1px solid var(--vf-border);
+  padding-top: 16px;
+}
+
+#valuation-form-root .vf-range {
+  font-size: 1.4rem;
+  margin: 8px 0;
+}
+
+#valuation-form-root .vf-breakdown {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+#valuation-form-root .vf-breakdown li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--vf-border);
+}
+
+@media (max-width: 700px) {
+  #valuation-form-root .vf-grid {
+    grid-template-columns: 1fr;
+  }
+}
